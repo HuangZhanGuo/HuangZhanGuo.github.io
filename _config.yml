@@ -8,13 +8,13 @@ gems:        []
 highlighter:     rouge
 
 # Site settings
-email: master@joytou.net.cn
+email: huangzhanguo@163.com
 author: Joytou Wu
 owner_name: Joytou Wu
 
 #Server
-url: https://joytou.net
-github: https://github.com/joytou/
+url: https://huangzhanguo.github.io
+github: https://github.com/HuangZhanGuo/
 baseurl: ""
 dnsPrefetch: "on"
 #dnsPrefetch: "off" if don't want use dns-prefetch
@@ -23,9 +23,9 @@ dns:
       - "//dns17.hichina.com"
       
 #Github announce Settings
-github_username: joytou
-github_repo: joytou.github.io
-github_label: announcement
+github_username: HuangZhanGuo
+github_repo: huangzhanguo.github.io
+#github_label: announcement
 
 #Page settings
 future: true
@@ -38,7 +38,7 @@ markdown: kramdown
 
 #Navbar setting
 #If show the 'download' item on the navbar
-showdownload: true
+showdownload: false
 
 #Pagination setting
 #Testing, not opening
@@ -79,5 +79,5 @@ changyan:
   
 #Formspree
 formspree:
-  email_prefix: "1540294142"
+  email_prefix: "1752489558"
   email_suffix: "qq.com"
