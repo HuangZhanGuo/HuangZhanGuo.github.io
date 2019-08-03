@@ -1,0 +1,34 @@
+---
+layout: default
+nav: contact
+permalink: /tw/contact/
+lang: tw
+---
+{%- assign translation = site.data.language[page.lang] -%}
+<form id="passthrough" method="post">
+<div class="form-group">
+		<label class="grunion-field-label name">{{ translation.name }}<span>（{{ translation.required }}）</span></label>
+		<input type="text" name="title" value="" class="name form-control"  required aria-required="true"/>
+</div>
+<div class="form-group">
+		<label class="grunion-field-label email">{{ translation.email }}<span>（{{ translation.required }}）</span></label>
+		<input type="email" name="sendemail" value="" class="email form-control"  required aria-required="true"/>
+</div>
+<div class="form-group">
+		<label class="grunion-field-label textarea">{{ translation.content }}<span>（{{ translation.required }}）</span></label>
+		<textarea name="content" rows="20" class="textarea form-control"  required aria-required="true"></textarea>
+</div>
+<p class="contact-submit form-group">
+		<input type="submit" name="submitcontent" value="{{ translation.submit }} »" class="btn btn-default btn-block form-control"/>
+		<input type="hidden" name="_subject" value="JOYTOU submission!" />
+		<input type="hidden" name="_format" value="plain" />
+		<input type="hidden" name="_language" value="{{ site.data.lang[page.lang].simplecode }}{%- if site.data.lang[page.lang].simplecode != site.data.lang[page.lang].lang -%}-{{ site.data.lang[page.lang].lang }}{%- endif -%}" />
+		<input type="text" name="_gotcha" style="display:none" />
+		<input type="hidden" id="contacttime" name="_replyto"/>
+		<div id="recaptcha" style="text-align:center; display:inline-block"></div>
+</p>
+</form>
+<script type="text/javascript">
+   document.getElementById('contacttime').value=new Date().getTime()+'@joytou.net';
+   document.getElementById('passthrough').setAttribute('action','https'+'://formspree.io/' + '{{ site.formspree.email_prefix }}' + '@' + '{{ site.formspree.email_suffix }}');
+</script>

@@ -1,0 +1,83 @@
+# Resources settings
+source:      .
+destination:      ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+timezone:    Asia/Hongkong
+gems:        []
+highlighter:     rouge
+
+# Site settings
+email: master@joytou.net.cn
+author: Joytou Wu
+owner_name: Joytou Wu
+
+#Server
+url: https://joytou.net
+github: https://github.com/joytou/
+baseurl: ""
+dnsPrefetch: "on"
+#dnsPrefetch: "off" if don't want use dns-prefetch
+dns:
+      - "//dns18.hichina.com"
+      - "//dns17.hichina.com"
+      
+#Github announce Settings
+github_username: joytou
+github_repo: joytou.github.io
+github_label: announcement
+
+#Page settings
+future: true
+show_drafts: nil
+lsi: true
+published: false
+safe: false
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+
+#Navbar setting
+#If show the 'download' item on the navbar
+showdownload: true
+
+#Pagination setting
+#Testing, not opening
+paginatenum: 2
+ 
+exclude: ['README.md','Manifest.md']
+include: ['robots.txt','404.html','.htaccess']
+
+# Description
+description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
+
+# Keywords
+keywords:
+        - "git"
+        - "bootstrap"
+        - "blog"
+        - "joytou"
+        - "markdown"
+        - "jekyll"
+        - "博客"
+        - "博客模板"
+        - "jekyll主题"
+        - "jekyll theme"
+        - "liquid"
+        - "静态"
+        - "响应式"
+        - "Coding"
+        - "gitee"
+        - "github"
+        
+
+#Others
+
+#ChangYan
+changyan:
+  appid: "cys9CkC15"
+  appconf: "prod_6c14cfe1b9706846e412ddac9bcdb068"
+  
+#Formspree
+formspree:
+  email_prefix: "1540294142"
+  email_suffix: "qq.com"

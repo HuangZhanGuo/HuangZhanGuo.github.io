@@ -1,0 +1,28 @@
+---
+layout: default
+nav: category
+permalink: /en/categories/
+lang: en
+---
+<div class="panel-group" id="accordionn">
+{%- for category in site.categories -%}
+    <div class="panel panel-{% cycle 'default', 'primary', 'success', 'info', 'warning', 'danger' %}">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordionn" href="#{{ category | first }}">{{ category | first }}&nbsp;<span class="badge">{{ category | last | where: "lang", page.lang | size }}</span></a>
+            </h4>
+        </div>
+        <div id="{{ category | first }}" class="panel-collapse collapse">
+            <div class="panel-body">
+               <ul>
+{%- for post in category.last -%}
+{%- if post.lang contains page.lang -%}
+                    <li><time datetime="{{ post.date | date_to_string }}">{{ post.date | date: "%Y-%m-%d" }}</time>&nbsp;<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{%- endif -%}
+{%- endfor -%}
+               </ul>
+            </div>
+        </div>
+    </div>
+    {%- endfor -%}
+</div>

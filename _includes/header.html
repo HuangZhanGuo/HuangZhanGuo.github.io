@@ -1,0 +1,12 @@
+{% assign translation = site.data.language[page.lang] %}
+{% assign announce = site.data.announcement[0] %}
+<div class="blog-header">
+  <noscript>{{ translation.noscript }}</noscript>
+        <div class="jumbotron">
+        <h1 id="jumbotrontitle"></h1>
+        <p id="jumbotroncontent"></p>
+        <p><a id="jumbotronurl" class="btn btn-primary btn-lg" role="button">
+        {{ translation.readmore }}</a>
+      </p>
+   </div>
+</div>
