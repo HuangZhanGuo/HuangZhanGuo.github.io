@@ -5,12 +5,14 @@ tags:
 - Linux
 - JIRA
 categories: JIRA
-description: Jacman 是一款扁平化，有着响应式设计的 Jekyll 主题。本站正式使用了 Jacman 主题。Jacman 基于 Jacman 的 Hexo 主题修改而来。你可以前往本站和 Demo 预览更多关于本主题的更多效果。如果你有任何问题或意见欢迎到 GitHub 发表 issue。
+description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广泛应用于缺陷跟踪、客户服务、需求收集、流程审批、任务跟踪、项目跟踪和敏捷管理等工作领域。
 ---
 
 ## JIRA简介
 
 JIRA是Atlassian公司出品的项目与事务跟踪工具，被广泛应用于缺陷跟踪、客户服务、需求收集、流程审批、任务跟踪、项目跟踪和敏捷管理等工作领域。
+
+
 
 <!-- more -->
 
@@ -55,9 +57,7 @@ mysql  Ver 15.1 Distrib 5.5.60-MariaDB, for Linux (x86_64) using readline 5.1
 
 ```mysql
 >create database jira default character set utf8 collate utf8_bin;
-
 >grant all on *.* to ‘root'@'%’ identified by ‘jirapasswd’;
-
 >flush privileges;
 ```
 
