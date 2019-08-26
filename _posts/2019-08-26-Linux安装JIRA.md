@@ -142,7 +142,7 @@ jira的主要配置文件，存放在/opt/atlassian/jira/conf/server.xml文件�
 [root@localhost ~]#vim /opt/atlassian/jira/conf/server.xml
 ```
 
-![修改JIRA端口](/assets/img/jira_setup/20180827163541195.png)
+![修改JIRA端口](https://huangzhanguo.github.io/assets/img/jira_setup/20180827163541195.png)
 
 4、使用./stop-jira.sh关闭jira，然后把破解包里面的atlassian-extras-3.2.jar和mysql-connector-java-5.1.39-bin.jar两个文件复制到/opt/atlassian/jira/atlassian-jira/WEB-INF/lib/目录下，复制文件可以使用WinSCP软件来操作linux文件。 
 使用./start-jira.sh启动jira，然后我们现在来访问如下地址：[http://192.168.1.178:8080](http://192.168.1.178:8080/)
@@ -157,7 +157,7 @@ jira的主要配置文件，存放在/opt/atlassian/jira/conf/server.xml文件�
 
 访问以上地址后，系统会自动跳转到jira的默认配置页面，在此我们选择自定义配置，如下：
 
-![设置JIRA](img/jira_setup/691634-20171127000809593-1145368614.png)
+![设置JIRA](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127000809593-1145368614.png)
 
  
 
@@ -165,13 +165,13 @@ jira的主要配置文件，存放在/opt/atlassian/jira/conf/server.xml文件�
 
 前提，创建一个数据库名为jira，在数据库方面，我们选择mysql数据库即可，填写完毕后相关的数据库地址、用户和密码后，就可以点击next按钮，如下：
 
-![img](img/jira_setup/691634-20171122134139758-1289922706.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134139758-1289922706.png)
 
  
 
 数据库初始化完毕后，我们来查看下jira数据库的内容，如下：
 
-![img](img/jira_setup/691634-20171122134328915-484773386.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134328915-484773386.png)
 
  
 
@@ -179,13 +179,13 @@ jira的主要配置文件，存放在/opt/atlassian/jira/conf/server.xml文件�
 
 cat /var/atlassian/application-data/jira/dbconfig.xml
 
-![img](img/jira_setup/691634-20171122134404743-1596500324.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134404743-1596500324.png)
 
  
 
 下面的配置就比较简单了，自定义也可以，默认也可以。
 
-![img](img/jira_setup/691634-20171122134425243-444505308.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134425243-444505308.png)
 
  
 
@@ -193,7 +193,7 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
 下面这个页面是需要我们输入jira的license，如下：
 
-![img](img/jira_setup/691634-20171122134443383-361957194.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134443383-361957194.png)
 
  
 
@@ -201,17 +201,17 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
 因为我们没有正式的license，所以需要我们在jira官网注册一个账号，然后利用这个账号申请一个可以试用30天的license，如下：
 
-![img](img/jira_setup/691634-20171122134459008-1224683022.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134459008-1224683022.png)
 
  
 
 注意：这个图中的Server ID就是我们上面刚刚截图的Server ID。
 
-![img](img/jira_setup/691634-20171122134512899-1617838245.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134512899-1617838245.png)
 
  
 
-![img](img/jira_setup/691634-20171122134539571-1547448451.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134539571-1547448451.png)
 
  
 
@@ -219,7 +219,7 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
 通过上图，我们可以很明显的看到试用license已经申请成功。下面开始创建管理员账户，如下：
 
-![img](img/jira_setup/691634-20171122134556743-2021523642.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134556743-2021523642.png)
 
  
 
@@ -227,7 +227,7 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
  
 
-![img](img/jira_setup/691634-20171122134623118-2084460306.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171122134623118-2084460306.png)
 
  
 
@@ -235,29 +235,29 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
  
 
-![img](img/jira_setup/691634-20171127002352890-2088572662.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127002352890-2088572662.png)
 
  
 
 创建第一个项目，如下：
 
-![img](img/jira_setup/691634-20171127002425390-1758043482.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127002425390-1758043482.png)
 
  
 
-![img](img/jira_setup/691634-20171127002455843-1513707796.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127002455843-1513707796.png)
 
  
 
-![img](img/jira_setup/691634-20171127002520937-220768617.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127002520937-220768617.png)
 
  
 
-![img](img/jira_setup/691634-20171127002558843-1500234000.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127002558843-1500234000.png)
 
  
 
-[![clip_image028](img/jira_setup/clip_image028_thumb.png)](http://www.ilanni.com/wp-content/uploads/2016/09/clip_image028-1.png)
+[![clip_image028](https://huangzhanguo.github.io/assets/img/jira_setup/clip_image028_thumb.png)](http://www.ilanni.com/wp-content/uploads/2016/09/clip_image028-1.png)
 
 到此jira7.2.2软件的安装就已经基本快结束了，下面我们来介绍jira的破解和中文。
 
@@ -267,7 +267,7 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
 我们现在登陆到jira中查看授权信息，如下：
 
-![img](img/jira_setup/691634-20171127002829921-1309317968.png)
+![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171127002829921-1309317968.png)
 
  
 
@@ -275,7 +275,7 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
  如何修改内存？
 
- ![img](img/jira_setup/691634-20171123215526031-837828589.png)
+ ![img](https://huangzhanguo.github.io/assets/img/jira_setup/691634-20171123215526031-837828589.png)
 
  日志查看：
 
