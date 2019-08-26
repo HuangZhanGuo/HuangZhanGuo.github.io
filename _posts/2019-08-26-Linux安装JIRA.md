@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 title: Linux安装破解JIRA
 tags:
 - Linux
