@@ -142,12 +142,12 @@ jira的主要配置文件，存放在/opt/atlassian/jira/conf/server.xml文件�
 [root@localhost ~]#vim /opt/atlassian/jira/conf/server.xml
 ```
 
-![修改JIRA端口](img/jira_setup/20180827163541195.png)
+![修改JIRA端口](/assets/img/jira_setup/20180827163541195.png)
 
 4、使用./stop-jira.sh关闭jira，然后把破解包里面的atlassian-extras-3.2.jar和mysql-connector-java-5.1.39-bin.jar两个文件复制到/opt/atlassian/jira/atlassian-jira/WEB-INF/lib/目录下，复制文件可以使用WinSCP软件来操作linux文件。 
 使用./start-jira.sh启动jira，然后我们现在来访问如下地址：[http://192.168.1.178:8080](http://192.168.1.178:8080/)
 
-![启动关闭JIRA](img/jira_setup/20180827163554214.png)
+![启动关闭JIRA](https://huangzhanguo.github.io/assets/img/jira_setup/20180827163554214.png)
 
 ### 删除jira 
 
