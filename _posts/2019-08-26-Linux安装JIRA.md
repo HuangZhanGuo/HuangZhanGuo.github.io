@@ -11,11 +11,9 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 ---
 
-### JIRA简介
+## JIRA简介
 
 JIRA是Atlassian公司出品的项目与事务跟踪工具，被广泛应用于缺陷跟踪、客户服务、需求收集、流程审批、任务跟踪、项目跟踪和敏捷管理等工作领域。
-
-<!-- more -->
 
 JIRA是Atlassian公司的产品。Atlassian公司于2002在澳大利亚悉尼成立，提供面向企业业务流程的协同办公产品，并于2015年12月在纳斯达克上市。作为一家SaaS公司，不雇佣一个销售人员，仅通过口碑获客，市值达10亿美金级别（64亿美元-2017年3月13日），这也从另外角度反映出这个产品的独特之处。
  Atlassian主要有5款产品，分别面向不同的市场。
@@ -29,7 +27,9 @@ JIRA是Atlassian公司的产品。Atlassian公司于2002在澳大利亚悉尼成
 Atlassian最核心的产品仍然是**JIRA**和**Confluence**，JIRA被业界公认为最好的项目管理和开发管理工具，Confluence 被认为是最好用的企业级知识管理工具。
  包括美国航空航天局使用Atlassian来设计火星探测器，Runkeeper使用Atlassian来设计健身应用。eBay、宝马、花旗都是Atlassian客户。传闻世界 500 强企业里,80% 都用过JIRA。
 
-### 安装与破解 
+<!-- more -->
+
+## 安装与破解 
 
 一、环境准备 
 1、jira7.3的运行是依赖java环境的，也就是说需要安装jdk并且要是1.8以上版本 
@@ -149,11 +149,11 @@ jira的主要配置文件，存放在/opt/atlassian/jira/conf/server.xml文件�
 
 ![启动关闭JIRA](https://huangzhanguo.github.io/assets/img/jira_setup/20180827163554214.png)
 
-### 删除jira 
+## 删除jira 
 
 查看jira安装的目录，直接删除/opt/atlassian/jira和/var/atlassian/application-data/jira目录 
 
-### 启动成功：
+## 启动成功：
 
 访问以上地址后，系统会自动跳转到jira的默认配置页面，在此我们选择自定义配置，如下：
 
@@ -261,7 +261,7 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
 到此jira7.2.2软件的安装就已经基本快结束了，下面我们来介绍jira的破解和中文。
 
-### 破解jira
+## 破解jira
 
 破解jira，其实我们已经破解了在第3.1章节复制atlassian-extras-3.1.2.jar到/opt/atlassian/jira/atlassian-jira/WEB-INF/lib/目录下时，再次启动jira时就已经破解了。
 
@@ -279,5 +279,9 @@ cat /var/atlassian/application-data/jira/dbconfig.xml
 
  日志查看：
 
+```
 tail -f ../logs/catalina.out
+```
+
+
 
