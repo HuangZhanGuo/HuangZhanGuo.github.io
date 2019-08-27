@@ -4,7 +4,11 @@ title: Linux安装破解JIRA
 tags:
 - Linux
 - JIRA
-categories: JIRA
+- 敏捷开发
+categories: 
+- JIRA
+- Linux
+- 敏捷开发
 description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广泛应用于缺陷跟踪、客户服务、需求收集、流程审批、任务跟踪、项目跟踪和敏捷管理等工作领域。
 ---
 
