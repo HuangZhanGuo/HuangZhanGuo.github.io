@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: JIRA配置手册（1）：问题类型管理
+title: JIRA配置手册：问题类型管理
 tags:
 - 敏捷开发
 - JIRA
