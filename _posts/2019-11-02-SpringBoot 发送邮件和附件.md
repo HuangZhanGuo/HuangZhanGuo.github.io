@@ -10,6 +10,10 @@ categories:
 description: 使用Spring的JavaMailSender和JavaMailSenderImpl 实现邮件的发送含附件
 ---
 
+> Spring Boot邮件服务实现
+
+<!-- more -->
+
 ## 基础知识
 
 ### 什么是SMTP？
