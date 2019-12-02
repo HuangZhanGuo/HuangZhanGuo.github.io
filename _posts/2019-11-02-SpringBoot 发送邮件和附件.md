@@ -2,11 +2,11 @@
 layout: photo
 title: SpringBoot 发送邮件和附件
 tags:
-- Spring Boot
-- 邮件
+- SpringBoot
+- Email
 categories: 
-- Spring Boot
-- 邮件
+- SpringBoot
+- Email
 description: 使用Spring的JavaMailSender和JavaMailSenderImpl 实现邮件的发送含附件
 ---
 
