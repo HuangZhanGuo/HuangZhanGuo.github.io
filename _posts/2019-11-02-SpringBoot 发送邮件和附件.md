@@ -457,9 +457,9 @@ public class MailController {
 
 启动工程并访问：http://localhost:8888 然后可以看到发送邮件的主界面如下：
 
-![](https://huangzhanguo.github.io/assets/img/springbootmail/微信截图_20191102111759.png)
+![](https://huangzhanguo.github.io/blog_img/springbootmail/微信截图_20191102111759.png)
 
-![](https://huangzhanguo.github.io/assets/img/springbootmail/微信截图_20191102111900.png)
+![](https://huangzhanguo.github.io/blog_img/springbootmail/微信截图_20191102111900.png)
 
 至此发送邮件代码全部完成，欢迎大家下载并关注Github 源码。
 

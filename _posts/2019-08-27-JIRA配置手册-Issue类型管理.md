@@ -40,7 +40,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640.webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640.webp)
 
  图 1项目与方案关系图
 
@@ -54,7 +54,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (1).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (1).webp)
 
 图 2 进入项目管理页
 
@@ -64,7 +64,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (2).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (2).webp)
 
 图 3 选择项目
 
@@ -82,7 +82,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (3).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (3).webp)
 
 图 4 编辑项目
 
@@ -108,7 +108,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (4).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (4).webp)
 
 图 5问题类型管理
 
@@ -118,7 +118,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (5).webp)图 6 新建问题类型
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (5).webp)图 6 新建问题类型
 
 
 
@@ -138,7 +138,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (6).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (6).webp)
 
 图 7 问题类型方案管理
 
@@ -148,7 +148,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (7).webp)图 8 新建问题类型方案
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (7).webp)图 8 新建问题类型方案
 
 
 
@@ -172,7 +172,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (8).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (8).webp)
 
 图 9 关联问题类型方案
 
@@ -182,7 +182,7 @@ description: JIRA是Atlassian公司出品的项目与事务跟踪工具，被广
 
 注意：我们也可在项目管理中，查看问题类型，验证我们已经关联的问题类型方案。
 
-![img](https://huangzhanguo.github.io/assets/img/jira_config/640 (9).webp)
+![img](https://huangzhanguo.github.io/blog_img/jira_config/640 (9).webp)
 
 图 10 关联问题类型
 
